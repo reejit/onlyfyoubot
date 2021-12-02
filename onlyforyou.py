@@ -17,5 +17,6 @@ async def ok(Bot: Bot):
    time.sleep(3600)
 
 Bot.run()
+ok()
 
 
