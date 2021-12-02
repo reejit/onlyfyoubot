@@ -1,5 +1,6 @@
 from pyrogram import Client
 import time
+import os
 
 Bot = Client(
      api_id = 1860713,
