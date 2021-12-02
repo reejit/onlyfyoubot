@@ -12,8 +12,10 @@ Bot = Client(
 Bot.send_message(
        chat_id = -1001696858755,
        text = "fuck you"
-   )
-  time.sleep(3600)
+)
+print ("sent")
+time.sleep(3600)
+print ("sleep")
 Bot.run()
 
 
