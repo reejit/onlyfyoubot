@@ -14,7 +14,7 @@ def ok(Bot: Bot):
        chat_id = -1001696858755,
        text = "fuck you"
    )
-   time.sleep(3600)
+  time.sleep(3600)
 
 Bot.run()
 ok()
