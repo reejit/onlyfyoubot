@@ -9,12 +9,12 @@ Bot = Client(
      session_name = ":memory:"
 )
 
-
-Bot.run()
 Bot.send_message(
        chat_id = -1001696858755,
        text = "fuck you"
    )
   time.sleep(3600)
+Bot.run()
+
 
 
