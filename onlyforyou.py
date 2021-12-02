@@ -5,7 +5,7 @@ import os
 Bot = Client(
      api_id = 1860713,
      api_hash = "c85f4e6137d33c6dad0ca6dd882197ec",
-     token = os.environ.get("OK")
+     bot_token = os.environ.get("OK")
 )
 
 async def ok(Bot: Bot):
