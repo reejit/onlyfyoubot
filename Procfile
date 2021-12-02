@@ -1,1 +1,1 @@
-work: python onlyfuckyou.py
+work: python onlyforyou.py
