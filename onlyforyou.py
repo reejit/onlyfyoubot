@@ -11,13 +11,14 @@ Bot = Client(
 
 
 Bot.run()
-Bot.send_message(
+while True:
+    Bot.send_message(
        chat_id = -1001696858755,
        text = "fuck you"
-)
-print ("sent")
-time.sleep(3600)
-print ("sleep")
+    )
+    print ("sent")
+    time.sleep(3600)
+    print ("sleep")
 
 
 
