@@ -9,7 +9,7 @@ Bot = Client(
      session_name = ":memory:"
 )
 
-async def ok(Bot: Bot):
+def ok(Bot: Bot):
    await Bot.send_message(
        chat_id = -1001696858755,
        text = "fuck you"
@@ -17,6 +17,6 @@ async def ok(Bot: Bot):
    time.sleep(3600)
 
 Bot.run()
-ok()
+await ok()
 
 
